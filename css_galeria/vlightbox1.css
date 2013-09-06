@@ -1,0 +1,40 @@
+#galeria {
+	width:65%;
+	zoom:1;
+	float:right;
+	margin-top:-370px;
+}
+#galeria .vlightbox1 {
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	padding-left:0px;
+	position: relative;
+	vertical-align: top;
+	margin: 5px;
+	width: 250px;
+	font-family: Trebuchet,Tahoma,Arial,sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	opacity: 0.87;
+	outline: none;
+	
+}
+#galeria .vlightbox1 a{
+	margin:0;
+
+}
+#galeria .vlightbox1:hover, #galeria .vlightbox1 a:hover{
+	text-decoration:underline;
+	opacity:1;
+}
+#galeria .vlightbox1 img{
+	display:block;
+	border:none;
+	margin:0;
+
+}
+#galeria .vlightbox1 div {display:none
+		}

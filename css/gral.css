@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+/*comienza cabezal*/
+*{
+	font-family:Verdana, Geneva, sans-serif;}
+#clear{clear:both}
+body{
+	background-image:url(../imagenes/background/fondo.gif);
+	}
+#contenedor{
+	margin-top:-10px;
+	box-shadow:#000;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFF;
+	overflow:hidden;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	-moz-box-shadow: 0px 0px 30px #666; 
+-webkit-box-shadow: 0px 0px 30px #666F; 
+box-shadow: 10px 10px 30px #666;
+	}
+#botonera{
+		border-bottom:#b9dae1 2px dashed;
+		height:150px;
+		}
+#botonera img{float:left;
+
+	}
+#botones{
+	margin-left:-40px;
+	margin-top:-70px;
+	list-style:none;
+	float:right;
+	}
+#botones li{
+	display:inline;
+	width:100px;
+	
+	}
+#botones li a{
+	font-weight:bold;
+	text-shadow:1px 1px 1px #000;
+    float:left;
+    width: 110px;
+    height: 45px;
+    color:#FFF;
+    background:transparent url(../imagenes/cabeza/bt.gif) no-repeat bottom right;
+    text-decoration:none;
+    text-align:center;
+    padding-top:90px;
+    cursor:pointer;
+	font-size:11px;
+	margin-left:5px;
+	}
+#botones li a:hover{
+	margin-top:20px;
+	}
+/*termina cabezal*/	
+/*comienza pie*/
+#pie{
+	height:130px;
+	clear:both;
+	background:#d9dde4;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	position:relative;
+	}
+#pie h3{margin-left:10px;
+	padding-top:10px;
+	font-size:10px;}
+#pie ul li{
+	list-style:none;}
+.col{float:left;
+	list-style:none;
+	color:#333;
+	font-size:10px;}
+#pie a{color:#000;
+	text-decoration:none;}
+#pie a:hover{color:#666;
+	text-decoration:underline;}
+#newsletter{
+	position: absolute;
+	left: 600px;
+	top: 20px;
+	visibility: visible;
+}
+#newsletter form input:focus{border:#90F 1px solid;
+outline:0px}
+#newsletter form input{border-radius:10px;
+color:#90F;}
+#newsletter form #btsubmit:hover{color:#000;}
+#newsletter h4{font-size:10px;}
+#colfacebook{
+	float: right;
+	position: absolute;
+	left: 859px;
+	top: 21px;
+}
+#colfacebook img{margin-left:20px;}
+#colfacebook h2{font-size:13px;}
+#data{clear:both;
+text-align:center;
+border-top:dashed 2px #b9dae1;
+padding-top:0px;
+}
+#data p{font-size:10px;}
+/*termina pie*/

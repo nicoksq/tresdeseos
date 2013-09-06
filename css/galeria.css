@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+#contenedor{background:#d9d7c2 !important;}
+#pie{background:#d9dde4 !important;}
+#botonera{background:#FFF !important;} 
+#contenido{position:relative;}
+
+
+#galeria h1{font-size:20px;
+color:#96F;
+text-shadow: 1px 1px 1px #FFF;
+text-align:center;
+background:#CCC;
+width:1350px;
+margin-left:-400px;
+padding-bottom:10px;
+padding-top:10px;}
+#menu2{
+	position:relative;
+background:#fefabc;
+padding:15px;
+color: #000;
+width:200px;
+height:320px;
+-moz-transform: rotate(-3deg);
+-webkit-transform: rotate(-3deg);
+-o-transform: rotate(-3deg);
+-ms-transform: rotate(-3deg);
+transform: rotate(-3deg);
+box-shadow: 0px 8px 10px #333;
+-moz-box-shadow: 0px 8px 10px #333;
+-webkit-box-shadow: 0px 8px 10px #333;
+margin-left:40px;
+margin-top:20px;
+}
+
+
+#menu2 a{
+float:left;
+display:block;
+width:200px;
+padding:20px 7px 10px 0px;
+margin-left:10px;
+text-decoration:none;
+color:#99F;
+font-size:15px;
+font-weight:bold;
+border-bottom:dashed 2px;
+}
+#menu2 a:hover{color:#96F;
+}
+
+#gal a{
+	left:150px;
+	}
+
+#gal h2{font-size:18px;}
+#gal h3{font-size:14px;}
+#gal p{font-size:12px;}
+#gal{border-bottom:dashed 1px #96F;
+
+padding:20px;}
+#border-left{border-left:#96F 1px dashed;
+margin-top:-14px;}
+.none{border-bottom:none !important;}
